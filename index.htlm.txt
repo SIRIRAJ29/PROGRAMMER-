@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Siriraj - Portfolio</title>
+  <link rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+  <nav class="menu">
+    <ul>
+      <li>Home</li>
+      <li>Projects</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+
+  <div class="welcome-section">
+    <img src="/static/profile.jpg" class="profile-circle" />
+    <h1>Welcome, User</h1>
+  </div>
+
+  <div class="final-profile">
+    <img src="/static/profile.jpg" class="profile-circle big" />
+    <h2><span class="highlight">Siri</span><span class="shadow">raj</span></h2>
+    <p class="owner">(Owner)</p>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
